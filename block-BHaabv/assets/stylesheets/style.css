@@ -108,16 +108,26 @@ h2 {
     text-transform: capitalize;
     margin:12px 0;
 }
+.button {
+    width: 42px;
+    height: 22px;
+    border-radius: 16px;
+    background: linear-gradient(to right,#4A95CA ,#40CA94);
+    margin-left: 12px;
+}
+.circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #262b41;
+    margin-left: 3px;
+}
 .bell  span {
     color: #76788d;
     font-size: 20px;
     text-transform: capitalize;
     font-weight: 400;
     font-family: 'open-sans';
-}
-.bell i {
-    color: #3dbbac;
-    font-size: larger;
 }
 /* main */
 /* blocks */
@@ -191,13 +201,13 @@ h5 {
     margin-top: 12px;
 }
 .green {
-    color: #124847;
+    color: #2C6867;
     margin-top: 22px;
     margin-bottom: 24px;
     font-size: 14px;
 }
 .green-2 {
-    color: #124847;
+    color: #2C6867;
     font-size: 18px;
     margin-top: 34px;
     margin-right: 16px;
